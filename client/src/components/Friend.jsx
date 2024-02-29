@@ -17,7 +17,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath}) => {
     const primaryLight = palette.primary.light;
     const primaryDark  = palette.primary.dark;
     const main = palette.neutral.main;
-    const medium = paletter.neutral.medium;
+    const medium = palette.neutral.medium;
 
     const isFriend = friends.find((friend) => friend._id === friendId);
 
